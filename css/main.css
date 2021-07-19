@@ -334,3 +334,79 @@ header nav ul li a:hover {
   top: 2.8rem;
   right: 4.3rem;
 }
+
+.card-neon {
+  padding-top: 12.9rem;
+}
+.card-neon .left-area {
+  width: 100%;
+  max-width: 27.7rem;
+}
+.card-neon .left-area .ilustra-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 27.7rem;
+  margin-bottom: 12.9rem;
+}
+.card-neon .left-area .ilustra-mockup .circle {
+  position: absolute;
+  z-index: -1;
+  top: 8.7rem;
+  max-width: 37.7rem;
+  left: -21.4rem;
+}
+.card-neon .left-area .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-neon .left-area .text .icon {
+  position: relative;
+}
+.card-neon .left-area .text .icon:before {
+  content: "";
+  width: 5px;
+  height: 83px;
+  background: url("../img/points.svg") no-repeat center center;
+  display: inline-block;
+  position: absolute;
+  top: -104px;
+  left: 50%;
+  margin-left: -2.5px;
+}
+.card-neon .left-area .text .info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-neon .left-area .text .info-text h3 {
+  text-align: center;
+  margin-top: 3.6rem;
+  color: #33303e;
+}
+.card-neon .left-area .text .info-text p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f5c6b;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+.card-neon .left-area .text .info-text ul li:not(:last-child) {
+  margin-bottom: 2.6rem;
+}
