@@ -505,4 +505,44 @@ header nav ul li a:hover {
   height: 41rem;
   background: url("../img/bg-box-card-neon.svg") no-repeat center center;
   border-radius: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5.9rem;
+}
+.box-card .text {
+  width: 100%;
+  max-width: 38rem;
+}
+.box-card .text h2 {
+  color: #ffffff;
+  margin-bottom: 1.1rem;
+}
+.box-card .text h3 {
+  color: #fff;
+  max-width: 32.7rem;
+  margin-bottom: 0.8rem;
+}
+.box-card .text p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 3.1rem;
+}
+.box-card .text .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-card .text .btns button:not(:first-child) {
+  margin-left: 1.6rem;
+}
+.box-card .image {
+  margin-right: -3.1rem;
 }

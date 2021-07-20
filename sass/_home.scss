@@ -230,4 +230,38 @@
   height: 41rem;
   background: url("../img/bg-box-card-neon.svg") no-repeat center center;
   border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5.9rem;
+  .text {
+    width: 100%;
+    max-width: 38rem;
+    h2 {
+      color: #ffffff;
+      margin-bottom: 1.1rem;
+    }
+    h3 {
+      color: #fff;
+      max-width: 32.7rem;
+      margin-bottom: 0.8rem;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 150%;
+      color: #ffffff;
+      margin-bottom: 3.1rem;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      button {
+        &:not(:first-child) {
+          margin-left: 1.6rem;
+        }
+      }
+    }
+  }
+  .image {
+    margin-right: -3.1rem;
+  }
 }
