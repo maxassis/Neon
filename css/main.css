@@ -338,6 +338,21 @@ header nav ul li a:hover {
 .card-neon {
   padding-top: 12.9rem;
 }
+.card-neon .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .card-neon .left-area {
   width: 100%;
   max-width: 27.7rem;
@@ -409,4 +424,85 @@ header nav ul li a:hover {
 }
 .card-neon .left-area .text .info-text ul li:not(:last-child) {
   margin-bottom: 2.6rem;
+}
+.card-neon .right-area {
+  width: 100%;
+  max-width: 80rem;
+}
+.card-neon .right-area h2 {
+  max-width: 48.8rem;
+  color: #33303e;
+  margin-bottom: 4.9rem;
+}
+.card-neon .right-area ul {
+  margin-bottom: 3.2rem;
+}
+.card-neon .right-area ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(225, 224, 231, 0.9);
+  padding: 3.3rem 0px;
+}
+.card-neon .right-area ul li:first-child {
+  padding-top: 0;
+}
+.card-neon .right-area ul li .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-neon .right-area ul li .info .text {
+  margin-left: 4.3rem;
+}
+.card-neon .right-area ul li .info .text h3 {
+  color: #5f5c6b;
+}
+.card-neon .right-area ul li .info .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #7a7786;
+}
+.card-neon .right-area .btn {
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 112%;
+  letter-spacing: -0.5px;
+  color: #0073ce;
+}
+.card-neon .right-area .btn:after {
+  content: "";
+  position: absolute;
+  right: -1.8rem;
+  bottom: 0;
+  width: 1rem;
+  height: 0.3rem;
+  background-color: #ffc800;
+}
+
+.main-text {
+  margin-bottom: 14.4rem;
+}
+
+.box-card {
+  width: 100%;
+  height: 41rem;
+  background: url("../img/bg-box-card-neon.svg") no-repeat center center;
+  border-radius: 1.2rem;
 }
