@@ -6,9 +6,16 @@
   border-radius: 8px;
   padding: 3.7rem 3.2rem 2.3rem 3.2rem;
 
+  p {
+    font-size: 18px;
+    line-height: 150%;
+    color: $gray-400;
+  }
+
   .user {
     margin-bottom: 2.1rem;
     @include flex(row, center, space-between);
+    align-items: flex-start;
     strong {
       font-family: "Poppins", sans-serif;
       font-weight: 600;
@@ -17,12 +24,6 @@
       letter-spacing: -1px;
       color: $gray-500;
       margin-bottom: 21px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 150%;
-      color: $gray-400;
     }
   }
 }

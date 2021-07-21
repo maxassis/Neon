@@ -80,6 +80,11 @@ h4 {
   border-radius: 8px;
   padding: 3.7rem 3.2rem 2.3rem 3.2rem;
 }
+.card-depoimentos p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #5f5c6b;
+}
 .card-depoimentos .user {
   margin-bottom: 2.1rem;
   display: -webkit-box;
@@ -95,6 +100,9 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .card-depoimentos .user strong {
   font-family: "Poppins", sans-serif;
@@ -104,11 +112,6 @@ h4 {
   letter-spacing: -1px;
   color: #4e4b59;
   margin-bottom: 21px;
-}
-.card-depoimentos .user p {
-  font-size: 18px;
-  line-height: 150%;
-  color: #5f5c6b;
 }
 
 .btn-primary {
@@ -511,6 +514,9 @@ header nav ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 5.9rem;
 }
 .box-card .text {
@@ -545,4 +551,49 @@ header nav ul li a:hover {
 }
 .box-card .image {
   margin-right: -3.1rem;
+}
+
+.s-depoimentos {
+  padding-top: 13.4rem;
+}
+.s-depoimentos .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.s-depoimentos .top h2 span {
+  display: block;
+  color: #c6c5ce;
+  margin-bottom: 1.4rem;
+}
+.s-depoimentos .top .swiper-pagination {
+  position: relative;
+}
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet {
+  background: #ffc800;
+  opacity: 0.3;
+  border-radius: 1.2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+  margin-left: 0.4rem;
+}
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 17.23px;
+}
+.s-depoimentos .slide-depoimentos {
+  overflow: hidden;
 }
