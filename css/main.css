@@ -74,7 +74,7 @@ h4 {
 
 .card-depoimentos {
   width: 100%;
-  height: 20.9rem;
+  height: 209px;
   max-width: 38.4rem;
   background-color: rgba(241, 240, 245, 0.55);
   border-radius: 8px;
@@ -86,7 +86,6 @@ h4 {
   color: #5f5c6b;
 }
 .card-depoimentos .user {
-  margin-bottom: 2.1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,6 +211,165 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: #ffc800;
+}
+
+footer {
+  background-color: #0073ce;
+  padding-top: 4.9rem;
+}
+footer .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(73, 196, 253, 0.2);
+  padding-bottom: 4.8rem;
+  margin-bottom: 5.7rem;
+}
+footer .top .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .top .share span {
+  font-size: 1.4rem;
+  line-height: 125%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+footer .top .share ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3rem;
+}
+footer .top .share ul li:not(:first-child) {
+  margin-left: 3rem;
+}
+footer .main {
+  border-bottom: 1px solid rgba(73, 196, 253, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 6.2rem;
+  margin-bottom: 3.9rem;
+}
+footer .main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 86rem;
+}
+footer .main nav .item strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+}
+footer .main nav .item ul li:not(last-child) {
+  margin-bottom: 2.9rem;
+}
+footer .main nav .item ul li a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+  opacity: 0.7;
+}
+footer .main button {
+  width: 100%;
+  height: 7.6rem;
+  background-color: rgba(0, 164, 240, 0.23);
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2.5rem;
+  padding-right: 2.9rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .main button:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+footer .main button .info {
+  margin-left: 2.4rem;
+}
+footer .main button .info strong {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #ffffff;
+}
+footer .main button .info span {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 4px solid #ffc800;
+  padding-bottom: 3.4rem;
+}
+.msg .icon {
+  font-size: 1.8rem;
+}
+.msg p {
+  width: 100%;
+  max-width: 66rem;
+  margin-left: 2.5rem;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .s-hero {
@@ -596,4 +754,95 @@ header nav ul li a:hover {
 }
 .s-depoimentos .slide-depoimentos {
   overflow: hidden;
+}
+
+.s-conta-digital {
+  padding-top: 12.7rem;
+  padding-bottom: 8.5rem;
+}
+.s-conta-digital .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-conta-digital .text {
+  max-width: 54.2rem;
+}
+.s-conta-digital .text h2 {
+  color: #33303e;
+  margin-bottom: 4.5rem;
+}
+.s-conta-digital .text h2 span {
+  display: block;
+  color: rgba(198, 197, 206, 0.8);
+  margin-bottom: 0.9rem;
+}
+.s-conta-digital .text ul {
+  margin-bottom: 6.1rem;
+}
+.s-conta-digital .text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-conta-digital .text ul li:not(last-child) {
+  margin-bottom: 4.5rem;
+}
+.s-conta-digital .text ul li .icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #00d7d7;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 2.6rem;
+}
+.s-conta-digital .text ul li .info h4 {
+  margin-bottom: 0.4rem;
+  color: #5f5c6b;
+}
+.s-conta-digital .text ul li .info p {
+  line-height: 150%;
+  font-size: 1.8rem;
+  color: #7a7786;
+}
+.s-conta-digital .image {
+  width: 100%;
+  height: 59.8rem;
+  max-width: 71.2rem;
+  position: relative;
+  margin-right: -38px;
+  left: 12.5rem;
+}
+.s-conta-digital .image img {
+  position: absolute;
+}
+.s-conta-digital .image img.mockup-01 {
+  left: 0;
+  bottom: 4.7rem;
+}
+.s-conta-digital .image img.mockup-02 {
+  top: 0.3rem;
+  left: 25.8rem;
+}
+.s-conta-digital .image img.circle {
+  right: 0;
+  bottom: 0;
 }
