@@ -889,6 +889,77 @@ footer .main button .info span {
   height: 0.3rem;
   background-color: #ffc800;
 }
+@media (max-width: 1200px) {
+  .card-neon .left-area .ilustra-mockup .circle {
+    display: none;
+  }
+  .card-neon .right-area {
+    max-width: 73rem;
+  }
+  .card-neon .right-area .main-text ul li .info .text {
+    margin-left: 2rem;
+  }
+  .card-neon .right-area .box-card {
+    padding-left: 3.5rem;
+  }
+  .card-neon .right-area .box-card .image {
+    margin-right: -1rem;
+  }
+}
+@media (max-width: 991px) {
+  .card-neon .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .card-neon .left-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 67rem;
+    margin: 0 auto;
+  }
+  .card-neon .left-area .ilustra-mockup {
+    margin-bottom: 0;
+    max-width: 25.5rem;
+  }
+  .card-neon .left-area .text {
+    max-width: 27rem;
+  }
+  .card-neon .right-area {
+    margin-bottom: 9.8rem;
+    max-width: 100%;
+  }
+  .card-neon .right-area .main-text {
+    margin-bottom: 5.7rem;
+  }
+  .card-neon .right-area .main-text h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.3rem;
+    font-size: 3.6rem;
+  }
+  .card-neon .right-area .main-text .btn {
+    display: block;
+    text-align: center;
+  }
+  .card-neon .right-area .main-text .btn:after {
+    display: none;
+  }
+  .card-neon .right-area .box-card {
+    max-width: 94.7%;
+  }
+  .card-neon .right-area .box-card .image {
+    margin-right: -4rem;
+  }
+}
 
 .main-text {
   margin-bottom: 14.4rem;
