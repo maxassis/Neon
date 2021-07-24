@@ -270,9 +270,6 @@ header .btn-mobile {
   }
 }
 @media (max-width: 480px) {
-  header {
-    padding-top: 7.6rem;
-  }
   header .top {
     margin-bottom: 3.4rem;
   }
